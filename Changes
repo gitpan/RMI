@@ -1,5 +1,8 @@
 Revision history for RMI:
 
+0.06 Mon 02 Aug 2009
+            Updated documentation.
+
 0.05 Wed 28 Jan 2009
             An additional bug fixed appearing only with Perl 5.10 when proxy references DESTROY.
 
@@ -13,6 +16,6 @@ Revision history for RMI:
             Replacement with updated Makefile.PL to require a newer Test::More.
 
 0.01 Sun 25 Jan 2009
-	    Initial release.
+	        Initial release.
 
 
