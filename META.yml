@@ -1,5 +1,5 @@
 ---
-abstract: 'Remote Method Invocation with transparent proxies v0.07'
+abstract: 'Remote Method Invocation with transparent proxies '
 author:
   - 'Scott Smith <sakoht@cpan.org>'
 build_requires:
@@ -25,4 +25,4 @@ requires:
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.008000
+version: 0.09
