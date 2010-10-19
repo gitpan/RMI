@@ -25,7 +25,6 @@ sub TIE {
 
 sub AUTOLOAD {
     no strict 'refs';
-    $DB::single = 1;
     my $method = $RMI::ProxyReference::AUTOLOAD;
     $method =~ s/^.*:://g;
     my $o = $_[0];
@@ -73,7 +72,7 @@ RMI::ProxyReference - used internally by RMI to tie references
     
 =head1 VERSION
 
-This document describes RMI::ProxyReference v0.09.
+This document describes RMI::ProxyReference v0.10.
 
 =head1 DESCRIPTION
 
